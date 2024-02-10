@@ -18,8 +18,8 @@ private:
     char line[25];
 
 public:
-    mSdCard() = default;                           // Constructor & destructor
-    mSdCard(const mSdCard &u) = delete;   // Deletion of copy constructor, security for assuring there's only one instance
+    mSdCard() = default;                    // Constructor & destructor
+    mSdCard(const mSdCard &u) = delete;     // Deletion of copy constructor, security for assuring there's only one instance
 
     ~mSdCard() = default;
 

@@ -1,5 +1,5 @@
 /**
- * Include of all storage manager
+ * Include of all storage type
 */
 
 #include "storage.h"

@@ -7,9 +7,6 @@
 #ifndef STORAGE_H
 #define STORAGE_H
 
-/*#define FS_NO_GLOBALS TODO : Remove this line
-#include <FS.h>*/
-
 #include <string>	// Library for string
 #include <vector>	// Library for vector
 #include "DEFINITIONS.hpp"

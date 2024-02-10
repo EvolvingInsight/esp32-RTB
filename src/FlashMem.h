@@ -4,7 +4,7 @@
 
 #include "Storage.h"
 
-#include <LittleFS.h>	    // Library for internal storage TODO : remove this (?????)
+#include <LittleFS.h>	    // Library for internal storage
 
 /**
  * Child class of Storage
@@ -12,8 +12,8 @@
 class FlashMem : public Storage{
 
 public:
-    FlashMem() = default;                           // Constructor & destructor
-    FlashMem(const FlashMem &u) = delete;   // Deletion of copy constructor, security for assuring there's only one instance
+    FlashMem() = default;                       // Constructor & destructor
+    FlashMem(const FlashMem &u) = delete;       // Deletion of copy constructor, security for assuring there's only one instance
 
     ~FlashMem() = default;
 
@@ -25,9 +25,5 @@ public:
     bool addLine(const std::string fileName, const std::string line) override;
     bool clearFile(const std::string fileName) override;
 };
-
-/*FlashMem::FlashMem() {}// TODO : erase this line
-
-FlashMem::~FlashMem() {}*/
 
 #endif

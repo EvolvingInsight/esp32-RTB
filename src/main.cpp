@@ -269,6 +269,7 @@ void updateState(){
 
 /**
  * Loop that waits for the user input. Could be replace by an input coming from a web server.
+ * TODO : clean this code and make it smaller... definitely too much repetition here
  *
  * @return Whole user input as a string.
  */
