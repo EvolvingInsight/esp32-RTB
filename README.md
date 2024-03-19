@@ -1,7 +1,7 @@
 
 # ESP32 safe access controller (RTB) - Loïc Bouillon
 
-This DIY project describes how use an ESP32 microcontroller to control the access to a safe box. For a given time and interval, one can access safe's content. It might prove useful in order to control an addiction. If you intend to install and build this project, consider reading all the instructions at least once.
+This DIY project describes how to use an ESP32 microcontroller to manage the access to a safe box. For a given time and interval, one can access safe's content. It might prove useful in order to control an addiction. If you intend to install and build this project, consider reading all the instructions at least once.
 <br>
 
 ## Main features are :
