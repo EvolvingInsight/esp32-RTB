@@ -3,6 +3,5 @@
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/ipch
-doc/RTB.jpg
-doc/RTB_cover.jpg
-doc/esp32-installed.jpg
+/doc/RTB.jpg
+/doc/RTB_cover.jpg

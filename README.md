@@ -87,6 +87,6 @@ This DIY project describes how to use an ESP32 microcontroller to manage the acc
 - Host a local web server and avoid physical buttons.
 <br><br>
 
-##### Notice the yellow writing on the picture below (they represent the buttons' order)...
+##### Notice the white boxes on the picture below...
 
-<img src="./doc/esp32-installed.jpg" alt="Picture of ESP32 installed within the safe box" width="550" height="400">
+<img src="./doc/PCB info.png" alt="Picture of PCB." width="400" height="400">
